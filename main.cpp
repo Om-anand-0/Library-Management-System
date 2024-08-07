@@ -1,9 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm> // Include this for std::remove_if
+#include <algorithm>
 
-// Book class
 class Book {
 public:
     int id;
@@ -20,7 +19,6 @@ public:
     }
 };
 
-// Library class
 class Library {
 private:
     std::vector<Book> books;
